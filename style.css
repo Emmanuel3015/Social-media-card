@@ -1,5 +1,5 @@
 body {
-            background-color: #121212;
+            background-color: #141414;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -8,8 +8,7 @@ body {
             font-family: Arial, sans-serif;
         }
         .card {
-            background-color: #1e1e1e;
-            color: white;
+            background-color: #1f1f1f;
             width: 300px;
             text-align: center;
             padding: 20px;
@@ -24,6 +23,7 @@ body {
         }
         .card h2 {
             margin: 10px 0 5px;
+            color: #fff;
         }
         .card p {
             color: #a1a1a1;
