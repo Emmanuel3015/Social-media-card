@@ -1,4 +1,9 @@
-body {
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
             background-color: #141414;
             display: flex;
             justify-content: center;
@@ -23,6 +28,7 @@ body {
             height: 100px;
             border-radius: 50%;
             margin-bottom: 15px;
+            object-position: center;
         }
         .card h2 {
             margin: 10px 0 5px;
@@ -30,7 +36,7 @@ body {
         }
         .card p {
             color: #a1a1a1;
-            font-size: 14px;
+            font-size: 13px;
         }
         .card .location {
             color: #b2ff59;
@@ -50,6 +56,7 @@ body {
             text-decoration: none;
             padding: 10px;
             border-radius: 5px;
+            font-weight: 500;
         }
         .card ul li a:hover {
             background-color: #3c3c3c;
